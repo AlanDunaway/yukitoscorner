@@ -6,6 +6,7 @@ body{
     height: 100vh;
     margin: 0px;
     display: grid;
+    background-color:gray;
     grid-template-rows: 120px 1fr 60px;
     grid-template-columns: 2fr;
     grid-template-areas: 
@@ -25,6 +26,7 @@ body{
 
 .principal{
     grid-area: principal;
+    background-color: aqua;
     height: calc(100vh - 180px);
     background-color:#f0f0f0;
     padding: 20px;
@@ -36,4 +38,9 @@ body{
     background-color: #fff;
     position: sticky;
     bottom: 0px;
+}
+
+.w3-sidebar{
+    margin-left: 300px;
+    /*background-color:aqua;*/
 }
