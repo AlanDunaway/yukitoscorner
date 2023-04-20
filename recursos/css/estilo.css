@@ -1,48 +1,30 @@
-*{
-    box-sizing: border-box;
-}
-
-body{
-    height: 100vh;
-    margin: 0px;
-    display: grid;
-    background-color:gray;
-    grid-template-rows: 120px 1fr 60px;
-    grid-template-columns: 2fr;
-    grid-template-areas: 
-        "cabecalho" 
-        "principal" 
-        "rodape";
-}
-
-.cabecalho {
-    grid-area: cabecalho;
-    background-color:#021b38;
-    color: white;
-    display: flex;
-    flex-direction: column;
+.geral{
     text-align: center;
-}
-
-.principal{
-    grid-area: principal;
-    height: calc(100vh - 180px);
-    background-color:rgb(51, 51, 51);
-    padding: 20px;
+    width: 900px;
     align-self: center;
 }
 
-.rodape{
-    grid-area: rodape;
-    background-color: #fff;
-    position: sticky;
-    bottom: 0px;
+.topo{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 120px;
+    background-color:rgb(69, 35, 223);
+    color:white;
+    
 }
 
-.w3-sidebar{
-    margin-left: 300px;
-    box-sizing:border-box;
-    width: 160px;
-    text-align: center;
-    background-color:aqua;
+.meio{
+    width:780px;
+}
+
+/* classe trata o texto de título*/
+.textot{
+    text-align:center;
+    vertical-align:bottom;
+}
+
+.lateral{
+    text-align: left;
+    margin-left:200px;
 }
