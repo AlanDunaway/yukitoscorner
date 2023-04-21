@@ -1,0 +1,39 @@
+body{background: black;}
+
+.site{
+    text-align: center;
+    width: 800px;
+    margin:auto;
+    background-color:rgb(92, 92, 92);
+    height: fit-content;
+}
+
+.titulo{
+    font-size: 60px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    height: 120px;
+    background-color:rgb(69, 35, 223);
+    color:white;
+    padding-top:40px;
+
+    
+}
+.subtitulo{
+    font-size: 40px;
+    font-weight:bold;
+    color: white;
+    text-align:center;
+}
+.meio{
+    width:800px;
+}
+
+/* classe trata o texto de título*/
+.texto{ color: white; font-family: arial, sans-serif;}
+
+.lateral{
+    text-align: left;
+    margin-left:50px;
+    color:white;
+}
